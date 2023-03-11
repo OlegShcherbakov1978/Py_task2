@@ -7,5 +7,5 @@
 # 3 2 1 -> no
 m, n, a = input(
     'Введите размер шоколадки (m x n) и количество долек через пробел: ').split()
-print('Yes') if (int(a) % int(m) == 0) or (
-    int(a) % int(n) == 0) else print('No')
+print('Yes') if ((int(a) % int(m) == 0) or (
+    int(a) % int(n) == 0)) and (int(a) <= int(m)*int(n)) else print('No')
