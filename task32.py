@@ -1,3 +1,4 @@
+import random
 list_ = [1, 56, 4, 72, 23, 12, 8, 2, 43, 76, 27]
 min = 5
 max = 50
