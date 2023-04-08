@@ -20,7 +20,7 @@ def print_operation_table(func, rows=6, cols=6):
         matrix = []
         for j in range(1, cols+1):
             matrix.append((func(i, j)))
-        print(*matrix)
+        print(*list(matrix))
 
 
 print_operation_table(lambda x, y: x*y)
